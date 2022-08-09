@@ -1,3 +1,7 @@
+// Factory Function (Função Fábrica)
+// Um outro tipo especial são as Constructor Function (Função Construtora)
+
+
 function criaPessoa(nome, sobreNome, altura, peso) {
     return {
         nome,
