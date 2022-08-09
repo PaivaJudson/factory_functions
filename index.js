@@ -3,7 +3,7 @@ function criaPessoa(nome, sobreNome, altura, peso) {
         nome,
         sobreNome,
 
-        fala: function(assunto) {
+        fala: function(assunto = 'sobre nada') {
             return `${this.nome} está falando ${assunto}`
         },
         altura: altura,
